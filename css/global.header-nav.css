@@ -4,3 +4,26 @@
    list-style: none ;
    
 }
+.burger {
+   display: none;
+}
+
+@media (max-width:700px) {
+   .header__item,
+   .header__social-icons,
+   .header__social-icons-item,
+   .global__buttons,
+   .buttons__items {
+      display: none;
+   }
+   .burger {
+      display: block;
+      margin-left: auto;
+   }
+   .global-logo-img {
+      margin: auto ;
+   }
+   h1 {
+      font-family: var(--font-main);
+   }
+}

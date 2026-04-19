@@ -1,0 +1,30 @@
+.index__h3 {
+  font-size: 22px;
+  font-family: var(--font-main);
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color: var(--first-index-color);
+}
+.custom__decoration {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.index__description {
+  font-size: 15px;
+  font-family: var(--secondary-font);
+  color: var(--second-index-color);
+  padding-bottom: 40px;
+}
+.button__order {
+    text-decoration: none;
+    width: fit-content;
+    color: var(--color-word-button);
+    background-color: var(--accent-index-color);
+    border-radius: 8px;
+    padding: 7px 7px;
+}
+.index__description-img {
+    padding-top: 20px;
+}

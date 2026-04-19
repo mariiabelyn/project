@@ -1,4 +1,13 @@
- :root {
-    /* base fonts */
-    --font-main: "Merienda" , sans-serif;
- }
+:root {
+  /* base fonts */
+  --font-main: "Merienda", sans-serif;
+  --secondary-font: "Lato", sans-serif;
+
+  /* base colors */
+  --first-index-color: #454043;
+  --second-index-color: #6c646e;
+  --accent-index-color: #e22028;
+
+  /* base text sizing */
+  --index-p2-size: 34px;
+}

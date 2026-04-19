@@ -1,29 +1,18 @@
-.header__social-icons-item {
-   width: 30px;
-   height: 30px;
-   list-style: none ;
-   
-}
-.burger {
-   display: none;
+/* верх мобільна версія */
+.header__top {
+  display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
-@media (max-width:700px) {
-   .header__item,
-   .header__social-icons,
-   .header__social-icons-item,
-   .global__buttons,
-   .buttons__items {
-      display: none;
-   }
-   .burger {
-      display: block;
-      margin-left: auto;
-   }
-   .global-logo-img {
-      margin: auto ;
-   }
-   h1 {
-      font-family: var(--font-main);
-   }
+.header__checkbox {
+  display: none;
+}
+/* приховане меню */
+.header__dropdown {
+  display: none;
+}
+.header__checkbox:checked ~ .header__dropdown {
+  display: flex;
+  flex-direction: column;
 }

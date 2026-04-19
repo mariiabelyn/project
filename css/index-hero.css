@@ -1,0 +1,39 @@
+.hero__body {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-height: 300px;
+}
+h1 {
+  font-size: 58px;
+  font-family: var(--font-main);
+  color: var(--first-index-color);
+  font-weight: 400;
+  letter-spacing: -1.16px;
+  line-height: 63px;
+  text-align: left;
+}
+.hero__text {
+  font-family: var(--secondary-font);
+  color: var(--second-index-color);
+  font-size: 20px;
+  /* товщина букв */
+  font-weight: 400;
+  /* відстань між рядками */
+  line-height: 26px;
+}
+.hero__body-button {
+    /* забирає підкеслення тексту */
+    text-decoration: none;
+    background-color: var(--accent-index-color);
+    color: var(--color-word-button);
+    display: inline-block;
+    /* заокруглює кути кнопки */
+    border-radius: 8px;
+    /* робить кнопку такою як довжина тексту */
+    width: fit-content; 
+    font-size: 16px;
+    /* робить розмір самої кнопки */
+    padding: 7px 7px;
+    
+}
